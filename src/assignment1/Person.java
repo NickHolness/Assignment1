@@ -22,6 +22,28 @@ public class Person {
         this.birthday = birthday;
         
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setStreetAddress(String streetAddress) {
+        this.streetAddress = streetAddress;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
+    }
+
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
+    }
+    
+    
     /**
      * This method checks to see if the postal code is 6 characters long and
      * if not it throws an error
